@@ -1,0 +1,9 @@
+ros-hydro-interactive-marker-twist-server (0.0.1-0precise) precise; urgency=high
+
+  * Parameterize robot's name and the size of the resulting markers.
+  * Remove non-markers files from turtlebot_viz, Turtlebot-specific references.
+  * Starting point is https://github.com/turtlebot/turtlebot_viz
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 27 Nov 2013 05:00:00 -0000
+
+
