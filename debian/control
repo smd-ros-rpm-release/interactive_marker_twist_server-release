@@ -1,0 +1,12 @@
+Source: ros-indigo-interactive-marker-twist-server
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin, ros-indigo-interactive-markers, ros-indigo-roscpp, ros-indigo-roslaunch, ros-indigo-roslint, ros-indigo-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-interactive-marker-twist-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-interactive-markers, ros-indigo-roscpp, ros-indigo-visualization-msgs
+Description: Interactive control for generic Twist-based robots using interactive markers
